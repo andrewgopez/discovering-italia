@@ -37,3 +37,30 @@ body {
     background-color: #111;
     color: white;
 }
+
+.regions-page{
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.region-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.region-card {
+    display: block;
+    padding: 20px;
+    border: 1px solid #111;
+    text-decoration: none;
+    color: #111;
+    transition: 0.2s;
+}
+
+.region-card:hover {
+    background-color: #111;
+    color: white;
+}
