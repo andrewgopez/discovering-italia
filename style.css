@@ -6,6 +6,12 @@ body {
     color: #111;
 }
 
+h1 {
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
 .landing-page {
     height: 100vh;
     display: flex;
@@ -40,7 +46,7 @@ body {
 
 .regions-page{
     text-align: center;
-    padding: 60px 20px;
+    padding: 30px 20px;
 }
 
 .region-grid {
@@ -48,7 +54,7 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     max-width: 600px;
-    margin: 40px auto;
+    margin: 20px auto;
 }
 
 .region-card {
