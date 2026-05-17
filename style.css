@@ -20,6 +20,24 @@ h1 {
     flex-direction: column;
 }
 
+.begin-button {
+    font-family: Georgia, "Times New Roman", serif;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #111;
+    background-color: transparent;
+    color: #111;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    letter-spacing: 1px;
+}
+
+.begin-button:hover {
+    background-color: #111;
+    color: #fff;
+    transform: scale(1.03);
+}
+
 .navbar {
     display: flex;
     justify-content: center;
