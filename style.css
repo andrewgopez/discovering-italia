@@ -89,13 +89,91 @@ h1 {
     color: white;
 }
 
+.section {
+    max-width: 750px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.section h2 {
+    text-align: center;
+    margin: 20px 0 10px;
+    font-weight: bold;
+}
+
+.section h3 {
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.section p {
+    text-align: left;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 12px;
+}
+
+.section .video-description {
+    text-align: center;
+}
+
+.section iframe {
+    display: block;
+    margin: 20px auto 40px auto;
+}
+
+.city-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.city-card {
+    border: 1px solid #111;
+    padding: 15px;
+    text-align: center;
+}
+
+.landmark-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    align-items: stretch;
+}
+
+.landmark-card {
+    border: 1px solid #111;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.landmark-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.flag {
+    width: 220px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
 .footer{
     text-align: center;
     padding: 30px 10px;
     font-size: 14px;
     color: #666;
     margin-top: 40px;
-    position: fixed;
+    position: static;
     bottom: 0;
     left: 0;
     width: 100%;
