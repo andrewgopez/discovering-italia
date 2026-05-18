@@ -126,7 +126,8 @@ h1 {
 .city-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 15px;
+    gap: 20px;
+    row-gap: 40px;
     max-width: 800px;
     margin: 20px auto;
 }
@@ -137,27 +138,29 @@ h1 {
     text-align: center;
 }
 
-.landmark-grid {
+.landmark-grid, .food-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 25px;
+    row-gap: 40px;
     align-items: stretch;
 }
 
-.landmark-card {
+.landmark-card, .food-card {
     border: 1px solid #111;
-    padding: 15px;
+    padding: 5px;
     text-align: center;
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
-.landmark-card img {
+.landmark-card img, .food-card img {
     width: 100%;
     height: 180px;
     object-fit: cover;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .flag {
