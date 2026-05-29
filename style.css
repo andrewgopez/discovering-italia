@@ -89,6 +89,31 @@ h1 {
     color: white;
 }
 
+.region-nav{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.region-nav a, .nav-disabled{
+    display: inline-block;
+    text-decoration: none;
+    color: #111;
+    border: 1px solid #111;
+    padding: 10px 16px;
+    margin: 0 5px;
+    transition: 0.2s;
+}
+
+.region-nav a:hover{
+    background-color: #111;
+    color: white;
+}
+
+.nav-disabled{
+    color: #aaa;
+    border-color: #ccc;
+}
+
 .section {
     max-width: 750px;
     margin: 20px auto;
