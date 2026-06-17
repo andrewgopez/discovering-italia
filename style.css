@@ -114,6 +114,18 @@ h1 {
     border-color: #ccc;
 }
 
+.bullet {
+    display: block;
+    margin-left: 20px;
+    max-width: 700px;
+    text-indent: -12px;
+    padding-left: 12px;
+}
+
+.bullet::before {
+    content: "• ";
+}
+
 .section {
     max-width: 750px;
     margin: 20px auto;
