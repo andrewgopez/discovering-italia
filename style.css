@@ -170,8 +170,9 @@ a:hover {
     margin-bottom: 12px;
 }
 .music-container {
-    position: relative;
     display: inline-block;
+    z-index: 1;
+    margin-bottom: 10px;
 }
 
 .music {
@@ -181,7 +182,7 @@ a:hover {
 }
 
 .hover-text {
-    position: absolute;
+    position: relative;
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
