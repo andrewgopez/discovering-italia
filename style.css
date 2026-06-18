@@ -12,6 +12,16 @@ h1 {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 .landing-page {
     height: 100vh;
     display: flex;
@@ -213,7 +223,7 @@ h1 {
     text-align: center;
 }
 
-.landmark-grid, .food-grid {
+.city-grid, .landmark-grid, .food-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 25px;
@@ -221,7 +231,7 @@ h1 {
     align-items: stretch;
 }
 
-.landmark-card, .food-card {
+.city-card, .landmark-card, .food-card {
     border: 1px solid #111;
     padding: 5px;
     text-align: center;
@@ -236,6 +246,11 @@ h1 {
     object-fit: cover;
     margin-bottom: 10px;
     margin-top: 10px;
+}
+
+section img {
+    width: 200px;
+    height: auto;
 }
 
 .flag {
