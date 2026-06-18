@@ -174,13 +174,13 @@ a:hover {
     font-size: 28px;
     text-align: center;
     margin: 20px 0 10px;
-    font-weight: bold;
+    font-weight: bolder;
     scroll-margin-top: 80px;
 }
 
 .section h3 {
     font-size: 22px;
-    text-align: left;
+    text-align: center;
     margin-top: 25px;
     margin-bottom: 10px;
 }
@@ -197,6 +197,24 @@ a:hover {
     line-height: 1.6;
     color: #444;
     margin-bottom: 12px;
+}
+
+figure {
+    text-align: center;
+    margin: 20px auto;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+figcaption {
+    font-size: 14px;
+    color: #555;
+    margin-top: 6px;
+    font-style: italic;
 }
 
 .music-container {
