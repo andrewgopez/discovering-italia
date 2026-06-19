@@ -321,6 +321,7 @@ section img {
     height: auto;
     display: block;
     margin: 20px auto;
+    border: thin solid black;
 }
 
 .next-section {
