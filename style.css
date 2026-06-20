@@ -206,6 +206,15 @@ a:hover {
     margin-bottom: 12px;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 8px 0;
+}
+
 figure {
     text-align: center;
     margin: 20px auto;
