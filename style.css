@@ -253,17 +253,6 @@ figcaption {
     margin: 0 auto 10px auto;
 }
 
-.music {
-    width: 200px;
-    height: auto;
-    display: block;
-    transition: transform 0.3s ease;
-}
-
-.music:hover {
-    transform: none;
-}
-
 .hover-text {
     position: absolute;
     bottom: 10px;
