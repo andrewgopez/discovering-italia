@@ -339,6 +339,29 @@ section img {
     border: thin solid black;
 }
 
+#themeToggle, #backToTop {
+    position: fixed;
+    right: 20px;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+#themeToggle {
+    bottom: 70px;
+}
+
+#backToTop {
+    bottom: 20px;
+}
+
+body.dark {
+    background: #121212;
+    color: #f0f0f0;
+}
+
 .next-section {
     text-align: center;
     margin: 30px 0;
