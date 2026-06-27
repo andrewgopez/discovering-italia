@@ -340,6 +340,14 @@ section img {
     border: thin solid black;
 }
 
+.fact-box {
+    margin: 20px 0;
+    padding: 15px;
+    border-left: 4px solid #111;
+    background: #f5f5f5;
+    border-radius: 6px;
+}
+
 .next-section {
     text-align: center;
     margin: 30px 0;
@@ -468,6 +476,11 @@ body.dark .landmark-card {
 
 body.dark .flag{
     border: 1px solid #fff;
+}
+
+body.dark .fact-box {
+    background: #111;
+    border-left: 4px solid #fff;
 }
 
 body.dark .next-section a {
