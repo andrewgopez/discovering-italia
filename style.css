@@ -159,6 +159,7 @@ a:hover {
     transition: 0.2s;
 }
 
+
 .region-nav a:hover {
     background-color: #111;
     color: white;
@@ -186,6 +187,7 @@ a:hover {
     max-width: 750px;
     margin: 20px auto;
     padding: 10px;
+    color: inherit;
 }
 
 .section h2, .section h3 {
@@ -215,7 +217,6 @@ a:hover {
 .section p {
     text-align: left;
     line-height: 1.6;
-    color: #444;
     margin-bottom: 12px;
 }
 
@@ -339,29 +340,6 @@ section img {
     border: thin solid black;
 }
 
-#themeToggle, #backToTop {
-    position: fixed;
-    right: 20px;
-    padding: 10px 12px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 0.9rem;
-}
-
-#themeToggle {
-    bottom: 70px;
-}
-
-#backToTop {
-    bottom: 20px;
-}
-
-body.dark {
-    background: #121212;
-    color: #f0f0f0;
-}
-
 .next-section {
     text-align: center;
     margin: 30px 0;
@@ -389,4 +367,74 @@ body.dark {
     bottom: 0;
     left: 0;
     width: 100%;
+}
+
+
+#themeToggle, #backToTop {
+    position: fixed;
+    right: 20px;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+#themeToggle {
+    bottom: 70px;
+}
+
+#backToTop {
+    bottom: 20px;
+}
+
+body.dark {
+    background: black;
+    color: white;
+}
+
+body.dark nav {
+    background: #000;
+    color: #fff;
+}
+
+body.dark nav a {
+    color: white;
+}
+
+body.dark .table-of-contents {
+    background-color: #000;
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+}
+
+body.dark .table-of-contents a {
+    color: inherit;
+}
+
+body.dark .table-of-contents a:hover {
+    background-color: #222;
+}
+
+body.dark figcaption{
+    color: white;
+}
+
+body.dark .city-card,
+body.dark .food-card,
+body.dark .landmark-card {
+    border: 1px solid #fff;
+}
+
+body.dark .region-nav a {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+body.dark .nav-disabled {
+    color: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+body.dark footer{
+    color: white;
 }
