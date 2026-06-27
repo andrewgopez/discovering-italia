@@ -15,6 +15,7 @@ During the Winter 2025 semester at John Abbott College (CEGEP), I took a course 
 ## Technologies Used
 - HTML5
 - CSS
+- JS
 
 ## Author
 Andrew Kyle Gopez | 2026 
