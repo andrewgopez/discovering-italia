@@ -1,6 +1,10 @@
 const themeToggle = document.getElementById("themeToggle");
 const backToTop = document.getElementById("backToTop");
 
+if (localStorage.getItem("theme") === "dark") {
+    document.body.classList.add("dark");
+}
+
 // Theme toggle
 if (themeToggle) {
     themeToggle.addEventListener("click", () => {
