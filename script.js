@@ -1,8 +1,12 @@
 const themeToggle = document.getElementById("themeToggle");
 const backToTop = document.getElementById("backToTop");
 
+// Load saved theme
 if (localStorage.getItem("theme") === "dark") {
     document.body.classList.add("dark");
+    if (themeToggle) themeToggle.textContent = "☀️";
+} else {
+    if (themeToggle) themeToggle.textContent = "🌙";
 }
 
 // Theme toggle
@@ -12,8 +16,10 @@ if (themeToggle) {
 
         if (document.body.classList.contains("dark")) {
             localStorage.setItem("theme", "dark");
+            themeToggle.textContent = "☀️";
         } else {
             localStorage.setItem("theme", "light");
+            themeToggle.textContent = "🌙";
         }
     });
 }
