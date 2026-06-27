@@ -404,6 +404,7 @@ body.dark nav a {
 body.dark .table-of-contents {
     background-color: #000;
     box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
 }
 
 body.dark .table-of-contents a {
@@ -412,6 +413,17 @@ body.dark .table-of-contents a {
 
 body.dark .table-of-contents a:hover {
     background-color: #222;
+}
+
+body.dark .region-card {
+    color: #fff;
+    border-color: #fff; 
+    background-color: #111;  
+}
+
+body.dark .region-nav a {
+    color: #fff;
+    border: 1px solid #fff;
 }
 
 body.dark figcaption{
@@ -424,14 +436,7 @@ body.dark .landmark-card {
     border: 1px solid #fff;
 }
 
-body.dark .region-card {
-    color: #fff;
-    border-color: #fff; 
-    background-color: #111;  
-}
-
-body.dark .region-nav a {
-    color: #fff;
+body.dark .flag{
     border: 1px solid #fff;
 }
 
