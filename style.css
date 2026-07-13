@@ -183,19 +183,6 @@ a:hover {
     border-color: #ccc;
 }
 
-.region-map {
-    text-align: center;
-    margin: 20px 0;
-}
-
-.map-image {
-    max-width: 300px;
-    width: 100%;
-    height: auto;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-}
-
 .section {
     max-width: 750px;
     margin: 20px auto;
