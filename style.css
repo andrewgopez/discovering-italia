@@ -350,13 +350,13 @@ section img {
     font-size: 18px;
 }
 
-.central-link, .southern-link {
+.central-link, .southern-link, .insular-link {
     color: inherit;
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
-.central-link:hover {
+.central-link:hover, .southern-link:hover, .insular-link:hover {
     color: #000;
 }
 
