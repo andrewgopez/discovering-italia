@@ -29,6 +29,27 @@ h1 {
     color: #333;
 }
 
+.region-overview {
+    margin: 40px auto;
+    max-width: 1000px;
+}
+
+.region-overview h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.info-grid div {
+    padding: 20px;
+    border-radius: 10px;
+}
+
 .table-of-contents {
     max-width: 350px;
     margin: 20px auto;
@@ -402,6 +423,7 @@ section img {
     bottom: 20px;
 }
 
+/* DARK MODE STARTS HERE */
 body.dark {
     background: black;
     color: white;
