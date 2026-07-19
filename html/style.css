@@ -323,17 +323,6 @@ figcaption {
     opacity: 1;
 }
 
-/* Videos */
-.section .video-description {
-    text-align: center;
-}
-
-.section iframe {
-    display: block;
-    margin: 20px auto 40px auto;
-    border: 1px solid #000000;
-}
-
 /* =========================
    Cities, Landmarks, and Food Cards
 ========================= */
@@ -533,10 +522,6 @@ body.dark .region-card {
 body.dark .region-nav a {
     color: #fff;
     border: 1px solid #fff;
-}
-
-body.dark .section iframe {
-    border: 1px solid #ffffff;
 }
 
 body.dark figcaption {
