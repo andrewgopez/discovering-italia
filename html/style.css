@@ -171,6 +171,12 @@ a:hover {
     color: white;
 }
 
+.navbar a.active {
+    background-color: #111;
+    color: white;
+    font-weight: bold;
+}
+
 /* =========================
    Region Cards
 ========================= */
@@ -486,6 +492,13 @@ body.dark nav {
 
 body.dark nav a {
     color: white;
+}
+
+body.dark .navbar a.active {
+    background-color: #222;
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
 }
 
 body.dark .begin-button {
