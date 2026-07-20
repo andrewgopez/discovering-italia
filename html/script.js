@@ -33,3 +33,15 @@ if (backToTop) {
         });
     });
 }
+
+
+// Active highlighting
+const currentPage = window.location.pathname;
+
+document.querySelectorAll(".navbar a").forEach((link) => {
+    const anchor = link;
+
+    if (anchor instanceof HTMLAnchorElement && anchor.href.includes(currentPage)) {
+        anchor.classList.add("active");
+    }
+});
