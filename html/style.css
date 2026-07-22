@@ -546,7 +546,8 @@ body.dark figcaption {
 
 body.dark .city-card,
 body.dark .food-card,
-body.dark .landmark-card {
+body.dark .landmark-card,
+body.dark .sports-card {
     border: 1px solid #fff;
 }
 
